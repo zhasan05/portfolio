@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarif's Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/code.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Zarif Hasan</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Computer Programmer</p>
+        <img src="img/zarif.jpg" alt="a picture of Zarif Hasan smiling" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Skills & Experience</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Languages</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>SQL</li>
+                    <li>Assembly</li>
+                </ul>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Dev Tools</h3>
+                <ul>
+                    <li>Linux, Unix, Windows</li>
+                    <li>IDE(VS,Eclipse)</li>
+                    <li>PostgreSQL</li>
+                    <li>Version Control(Git)</li>
+                    <li>Github</li>
+                    <li>Android Studio</li>
+                    <li>Terminal</li>
+                </ul>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Background</h3>
+                <ul>
+                    <li>Dynamic programming</li>
+                    <li>&nbsp;&nbsp;&nbsp;Data structures & algorithms</li>
+                    <li>Creative programing</li>
+                    <li>Cross-platform coding</li>
+                    <li>Analytical thinking</li>
+                    <li>Mathematical Logics</li>
+                </ul>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Know me</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of Toronto</p>
+
+        <div class="about-me__body">
+            <p style="font-weight: 900;"> Hi. I'm Zarif, a creative,
+                passionate computer science student almost nearing my 3rd year of school at the Lassonde School of
+                Engineering at York University.
+            </p>
+            <p style="font-weight: 900;">I am currently on the lookout for opportunities that will give me a chance
+                to utilize my knowledge and experience working with my programming logic, algorithms, and cross-platform
+                coding.</p>
+            <p style="font-weight: 900;">Throughout the past three years, I have participated in more than a few
+                hackathons which not only reinforced my soft skills
+                but also added to my repertoire of technical skills including, working in groups, organizing a team, and
+                allocating time and resources.
+                I prefer to keep learning, continue challenging myself and enjoy being creative with my work.
+            </p>
+        </div>
+
+        <img src="img/pic1.jfif" alt="zarif leaning against a bus" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Works</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/weather1.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-item02.html" class="portfolio__item">
+                <img src="img/hack1.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="portfolio-item03.html" class="portfolio__item">
+                <img src="img/sms.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="portfolio-item04.html" class="portfolio__item">
+                <img src="img/scrap.png" alt="" class="portfolio__img">
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer" id="contact">
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:zarifhasan1996@gmail.com" class="footer__link">zarifhasan1996@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="tel:+14379810481">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/zhasan05">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/zhasan1996">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/zhasan05">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </section>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
